@@ -1,0 +1,157 @@
+{
+    "id": "Dong.app.sub",
+    "name": "Dong 脚本订阅",
+    "author": "@Dong",
+    "apps": [
+	    {
+            "id":"ymzz",
+            "name":"羊毛赚模拟",
+            "keys":[
+				"UserIDs",
+				"watchadck1",
+				"watchvediock1",
+				"watchadck2",
+				"watchvediock2",
+				"watchadck3",
+				"watchvediock3",
+				"watchadck4",
+				"watchvediock4",
+				"watchadck5",
+				"watchvediock5"
+
+				
+            ],
+            "author":"@Dong",
+          	"settings": [{
+                    "id": "ymzz",
+                    "name": "设置登录账号",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "输入羊毛赚8位用户id，0表示不用boxjs登录"
+                }
+            ],
+            "repo":"https://raw.githubusercontent.com/",
+            "icons":[
+                "https://s3.ax1x.com/2021/02/06/yYzYWR.png",
+                "https://s3.ax1x.com/2021/02/06/yYzYWR.png"
+            ],
+            "script":"https://raw.githubusercontent.com/"
+        },
+
+    {
+            "id": "ymz",
+            "name": "羊毛赚",
+            "keys": ["ymzurl","ymzhd","ymzbody","ymzbody1","ymztxbody"],
+            "author": "@feizao",
+            "settings": [{
+            "id": "ymzdsetting",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "ymzdcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "https://raw.githubusercontent.com/age174/-/main/ymz.js",
+            "icons": ["https://s3.ax1x.com/2021/02/06/yYzYWR.png", "https://s3.ax1x.com/2021/02/06/yYzYWR.png"],
+            "script": "https://raw.githubusercontent.com/age174/-/main/ymz.js"
+        },
+
+    {
+			"id": "youth_read",
+			"name": "中青自动阅读",
+			"keys": ["zqgetbody_body","zqgetbody_body1"],
+			"settings": [
+			 {
+          "id": "YOUNTH_READ_Notify",
+          "name": "静默运行",
+          "val": true,
+          "type": "boolean",
+          "desc": "运行脚本时不发出系统弹窗通知"
+        },
+				{
+					"id": "zqgetbody_body",
+					"name": "请求body",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+				}
+				,
+				{
+					"id": "zqgetbody_body1",
+					"name": "请求body",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+				}
+				,
+				{
+					"id": "zqgetbody_body_index",
+					"name": "上次执行位置",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+				}
+				,
+				{
+					"id": "zqgetbody_body_index1",
+					"name": "上次执行位置",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+				}
+			],
+			"author": "@Dong",
+			"repo": "https://github.com/songyangzz/QuantumultX/blob/master/YOUTH_READ.js",
+			"icons": [
+				"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
+				"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
+			]
+		},
+		{
+			"id": "dkdvd_read",
+			"name": "多看点观看视频",
+			"keys": ["dkdvd_body"],
+			"settings": [
+				{
+					"id": "dkdvd_body",
+					"name": "请求body",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "请先刷视频获取多body获取越多，脚本可获得金币越多"
+				}
+				,
+				{
+					"id": "dkdvd_body_index",
+					"name": "上次执行位置",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+				}
+			],
+			"author": "@Dong",
+			"repo": "https://raw.githubusercontent.com/age174/-/main/dkdsp.js",
+			"icons": [
+				"https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/dkd.png",
+				"https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/dkd.png"
+			]
+		}
+	]
+}
