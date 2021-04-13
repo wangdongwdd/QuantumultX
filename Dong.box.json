@@ -5,7 +5,7 @@
             "icon": "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/zz.png",
             "repo": "https://github.com/wangdongwdd/QuantumultX",
             "apps": [{
-            "id": "txstockapp1",
+            "id": "txstockappsss",
             "name": "自选羊毛股",
             "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey","cowkey","cashheader","cash"],
             "settings": [{
