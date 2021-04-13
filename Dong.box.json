@@ -2,6 +2,8 @@
     "id": "Dong.app.sub",
     "name": "Dong 脚本订阅",
     "author": "@Dong",
+    "icon": "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/zz.png",
+	"repo": "https://github.com/wangdongwdd/QuantumultX",
     "apps": [
 	    {
 		"id": "txstockapp",
