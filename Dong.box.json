@@ -15,16 +15,16 @@
             "type": "number",
             "desc": "默认为0,不自动提现"
 	}],
-            "author": "@cenbomin",
+            "author": "@Dong",
             "repo": "https://raw.githubusercontent.com/CenBoMin/GithubSync",
-            "script": "[https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js[",
-            "icons": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"
+            "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"],			
+            "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js",
     },
     {
             "id": "hlyydzh",
             "name": "葫芦音乐",
             "keys": ["hlyyurl", "hlyyhd", "hlyyurl2", "hlyyhd2","hlyyurl3", "hlyyhd3","hlyyurl4", "hlyyhd4","hlyyurl5", "hlyyhd5","hlyyurl6", "hlyyhd6","hlyyurl7", "hlyyhd7","hlyyurl8", "hlyyhd8","hlyyurl9", "hlyyhd9","hlyyurl10", "hlyyhd10", "hlyyurl11", "hlyyhd11", "hlyyurl12", "hlyyhd12","hlyyurl13", "hlyyhd13","hlyyurl14", "hlyyhd14","hlyyurl15", "hlyyhd15","hlyyurl16", "hlyyhd16","hlyyurl17", "hlyyhd17","hlyyurl18", "hlyyhd18","hlyyurl19", "hlyyhd19","hlyyurl20", "hlyyhd20", "hlyyurl21", "hlyyhd21", "hlyyurl22", "hlyyhd22","hlyyurl23", "hlyyhd23","hlyyurl24", "hlyyhd24","hlyyurl25", "hlyyhd25","hlyyurl26", "hlyyhd26","hlyyurl27", "hlyyhd27","hlyyurl28", "hlyyhd28","hlyyurl29", "hlyyhd29","hlyyurl300", "hlyyhd30", "hlyyurl31", "hlyyhd31", "hlyyurl32", "hlyyhd32","hlyyurl33", "hlyyhd33","hlyyurl34", "hlyyhd34","hlyyurl35", "hlyyhd35","hlyyurl36", "hlyyhd36","hlyyurl37", "hlyyhd37","hlyyurl38", "hlyyhd38","hlyyurl39", "hlyyhd39","hlyyurl40", "hlyyhd10"],
-            "author": "@feizao",
+            "author": "@Dong",
             "settings": [{
             "id": "hlyystatus",
             "name": "当前账号",
