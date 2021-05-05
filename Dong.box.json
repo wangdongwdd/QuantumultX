@@ -328,302 +328,106 @@
             "script":"https://raw.githubusercontent.com/caixukun112/js/master/Task/sqxs.js"
     },
 	{
-            "id": "jdtqdzh",
-            "name": "简单天气APP",
+            "id": "qlpkzq",
+            "name": "考状元娶老婆二合一",
             "keys": [
-				"jdtquserbody",
-				"jdtqcoinbody",
-				"jdtqqpbody",
-				"jdtqqp1body",
-				"jdtqqp1fbbody",
-				"jdtqqp2body",
-				"jdtqqp2fbbody",
-				"jdtqqp3body",
-				"jdtqqp3fbbody",
-				"jdtqqp4body",
+				"qlphd",
+				"kzyhd",
 
-				"jdtquserbody2",
-				"jdtqcoinbody2",
-				"jdtqqpbody2",
-				"jdtqqp1body2",
-				"jdtqqp1fbbody2",
-				"jdtqqp2body2",
-				"jdtqqp2fbbody2",
-				"jdtqqp3body2",
-				"jdtqqp3fbbody2",
-				"jdtqqp4body2",
+				"qlphd2",
+				"kzyhd2",
 
-				"jdtquserbody3",
-				"jdtqcoinbody3",
-				"jdtqqpbody3",
-				"jdtqqp1body3",
-				"jdtqqp1fbbody3",
-				"jdtqqp2body3",
-				"jdtqqp2fbbody3",
-				"jdtqqp3body3",
-				"jdtqqp3fbbody3",
-				"jdtqqp4body3",
+				"qlphd3",
+				"kzyhd3",
+
+				"qlphd4",
+				"kzyhd4",
+
+				"qlphd5",
+				"kzyhd5",
+
+				"qlphd6",
+				"kzyhd6",
+
+				"qlphd7",
+				"kzyhd7",
+
+				"qlphd8",
+				"kzyhd8",
+
+				"qlphd9",
+				"kzyhd9",
+
+				"qlphd10",
+				"kzyhd10",
 				
-				"jdtquserbody4",
-				"jdtqcoinbody4",
-				"jdtqqpbody4",
-				"jdtqqp1body4",
-				"jdtqqp1fbbody4",
-				"jdtqqp2body4",
-				"jdtqqp2fbbody4",
-				"jdtqqp3body4",
-				"jdtqqp3fbbody4",
-				"jdtqqp4body4",
+				"qlphd11",
+				"kzyhd11",
 				
-				"jdtquserbody5",
-				"jdtqcoinbody5",
-				"jdtqqpbody5",
-				"jdtqqp1body5",
-				"jdtqqp1fbbody5",
-				"jdtqqp2body5",
-				"jdtqqp2fbbody5",
-				"jdtqqp3body5",
-				"jdtqqp3fbbody5",
-				"jdtqqp4body5",
+				"qlphd12",
+				"kzyhd12",
 				
-				"jdtquserbody6",
-				"jdtqcoinbody6",
-				"jdtqqpbody6",
-				"jdtqqp1body6",
-				"jdtqqp1fbbody6",
-				"jdtqqp2body6",
-				"jdtqqp2fbbody6",
-				"jdtqqp3body6",
-				"jdtqqp3fbbody6",
-				"jdtqqp4body6",
+				"qlphd13",
+				"kzyhd13",
 				
-				"jdtquserbody7",
-				"jdtqcoinbody7",
-				"jdtqqpbody7",
-				"jdtqqp1body7",
-				"jdtqqp1fbbody7",
-				"jdtqqp2body7",
-				"jdtqqp2fbbody7",
-				"jdtqqp3body7",
-				"jdtqqp3fbbody7",
-				"jdtqqp4body7",
+				"qlphd14",
+				"kzyhd14",
 				
-				"jdtquserbody8",
-				"jdtqcoinbody8",
-				"jdtqqpbody8",
-				"jdtqqp1body8",
-				"jdtqqp1fbbody8",
-				"jdtqqp2body8",
-				"jdtqqp2fbbody8",
-				"jdtqqp3body8",
-				"jdtqqp3fbbody8",
-				"jdtqqp4body8"
-			],
-            "author": "@ziye",
-            "settings": [{
-                    "id": "jdtqSuffix",
-                    "name": "当前账号",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
-                },
-                {
-                    "id": "jdtqCount",
-                    "name": "账号个数",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                },
-                {
-                    "id": "jdtqXH",
-                    "name": "循环获取CK",
-                    "val": "0",
-                    "type": "number",
-                    "desc": "0关闭 1开启,默认关闭"
-                },
-                {
-                    "id": "jdtqCK",
-                    "name": "CK获取控制",
-                    "val": "0",
-                    "type": "number",
-                    "desc": "0关闭, 1用户名, 2账户信息, 3首页气泡, 4气泡1, 5气泡1翻倍, 6气泡2, 7气泡2翻倍, 8气泡3, 9气泡3翻倍, 可设置0-41, 具体使用查看js说明"
-                },
-                {
-                    "id": "jdtqnotifyttt",
-                    "name": "推送控制",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "0关闭，1推送,默认12点以及23点推送"
-                },
-                {
-                    "id": "jdtqnotifyInterval",
-                    "name": "通知控制",
-                    "val": "2",
-                    "type": "number",
-                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
-                },
-                {
-                    "id": "jdtqMinutes",
-                    "name": "推送-通知 分钟控制",
-                    "val": "10",
-                    "type": "number",
-                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
-                }
+				"qlphd15",
+				"kzyhd15",
+				
+				"qlphd16",
+				"kzyhd16",
+				
+				"qlphd17",
+				"kzyhd17",
+				
+				"qlphd18",
+				"kzyhd18",
+				
+				"qlphd18",
+				"kzyhd18",
+				
+				"qlphd19",
+				"kzyhd19",
+				
+				"qlphd20",
+				"kzyhd20",
+				
+				"qlphd21",
+				"kzyhd21",
+				
+				"qlphd22",
+				"kzyhd22",
+				
+				"qlphd23",
+				"kzyhd23",
+				
+				"qlphd24",
+				"kzyhd24",
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png"],
-            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.js"
-        },
-		{
-                    "id": "hlyydzh",
-                    "name": "葫芦音乐",
-                    "keys": [
-					"hlyyurl",
-					"hlyyhd",
-					
-					"hlyyurl2",
-					"hlyyhd2",
-					
-					"hlyyurl3",
-					"hlyyhd3",
-					
-					"hlyyurl4",
-					"hlyyhd4",
-					
-					"hlyyurl5",
-					"hlyyhd5",
-					
-					"hlyyurl6",
-					"hlyyhd6",
-					
-					"hlyyurl7",
-					"hlyyhd7",
-					
-					"hlyyurl8",
-					"hlyyhd8",
-					
-					"hlyyurl9",
-					"hlyyhd9",
-					
-					"hlyyurl10",
-					"hlyyhd10",
-
-					"hlyyurl11",
-					"hlyyhd11",
-
-					"hlyyurl12",
-					"hlyyhd12",
-					
-					"hlyyurl13",
-					"hlyyhd13",
-					
-					"hlyyurl14",
-					"hlyyhd14",
-					
-					"hlyyurl15",
-					"hlyyhd15",
-					
-					"hlyyurl16",
-					"hlyyhd16",
-					
-					"hlyyurl17",
-					"hlyyhd17",
-					
-					"hlyyurl18",
-					"hlyyhd18",
-					
-					"hlyyurl19",
-					"hlyyhd19",
-					
-					"hlyyurl20",
-					"hlyyhd20",
-
-					"hlyyurl21",
-					"hlyyhd21",
-
-					"hlyyurl22",
-					"hlyyhd22",
-					
-					"hlyyurl23",
-					"hlyyhd23",
-					
-					"hlyyurl24",
-					"hlyyhd24",
-					
-					"hlyyurl25",
-					"hlyyhd25",
-					
-					"hlyyurl26",
-					"hlyyhd26",
-					
-					"hlyyurl27",
-					"hlyyhd27",
-					
-					"hlyyurl28",
-					"hlyyhd28",
-					
-					"hlyyurl29",
-					"hlyyhd29",
-					
-					"hlyyurl30",
-					"hlyyhd30",
-
-					"hlyyurl31",
-					"hlyyhd31",
-
-					"hlyyurl32",
-					"hlyyhd32",
-					
-					"hlyyurl33",
-					"hlyyhd33",
-					
-					"hlyyurl34",
-					"hlyyhd34",
-					
-					"hlyyurl35",
-					"hlyyhd35",
-					
-					"hlyyurl36",
-					"hlyyhd36",
-					
-					"hlyyurl37",
-					"hlyyhd37",
-					
-					"hlyyurl38",
-					"hlyyhd38",
-					
-					"hlyyurl39",
-					"hlyyhd39",
-					
-					"hlyyurl40",
-					"hlyyhd40"
-                ],
-                    "author": "@Dong",
-                    "settings": [{
-                    "id": "hlyystatus",
+            "author": "@Dong",
+            "settings": [{
+                    "id": "qlpstatus",
                     "name": "当前账号",
                     "val": "1",
                     "type": "number",
                     "desc": "当前账号对应"
                 },
                 {
-                    "id": "hlyycount",
+                    "id": "qlpcount",
                     "name": "账号个数",
                     "val": "1",
                     "type": "number",
                     "desc": "需要几个账号，数字为几"
-                },
-                {
-                    "id": "hltxje",
-                    "name": "提现金额",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "填入1为提现1元,2为2元,3为5元,4为50元,5为100元,默认提现一元"
                 }
-			],
-            "repo": "https://github.com/age174/-/blob/main/hlyy.js",
-            "icons": ["https://ae01.alicdn.com/kf/U49d941738c0c41569f7db55825943375f.jpg", "https://ae01.alicdn.com/kf/U49d941738c0c41569f7db55825943375f.jpg"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/hlyy.js"
+            ],
+            "repo": "https://github.com/age174/-/blob/main/qlp.js",
+            "icons": [
+                "https://ae01.alicdn.com/kf/Uc2775b8f4abf41788ba89df0317e58050.jpg",
+                "https://ae01.alicdn.com/kf/Uc2775b8f4abf41788ba89df0317e58050.jpg"
+		    ],
+            "script": "https://raw.githubusercontent.com/age174/-/main/qlp.js"
     }
 ]
 }
