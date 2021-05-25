@@ -432,12 +432,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo":"https://github.com/caixukun112/js/blob/master/Task/sqxs.js",
-            "icons":[
-                "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png",
-                "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png"
-            ],
-            "script":"https://raw.githubusercontent.com/caixukun112/js/master/Task/sqxs.js"
+            "repo": "https://github.com/caixukun112/js/blob/master/Task/sqxs.js",
+            "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png"],
+            "script": "https://raw.githubusercontent.com/caixukun112/js/master/Task/sqxs.js"
     },
 	{
             "id": "jdtqdzh",
@@ -697,12 +694,9 @@
             "type": "number",
             "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
         }],
-            "repo":"https://github.com/caixukun112/js/blob/master/Task/sqxs.js",
-            "icons":[
-                "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png",
-                "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png"
-            ],
-            "script":"https://raw.githubusercontent.com/caixukun112/js/master/Task/sqxs.js"
+            "repo": "https://github.com/ziye888/JavaScript/blob/main/Task/shuqi.js",
+            "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png"],
+            "script": "https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/shuqi.js"
     }
 ]
 }
