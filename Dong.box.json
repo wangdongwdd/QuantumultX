@@ -586,15 +586,9 @@
             "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png"],
             "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.js"
         },
-{
-    "id": "Dong.shuqiapp.sub",
-    "name": "书旗专用订阅",
-    "author": "@Dong",
-    "icon": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/ziye.png",
-    "repo": "https://github.com/ziye888",
-    "apps": [{
-        "id": "shuqiappsss",
-        "name": "书旗ZIYE",
+        {
+        "id": "shuqidzh",
+        "name": "书旗小说",
         "keys": [
             "shuqiuserurl", "shuqisyurl", "shuqisybody", "shuqispbody", "shuqiscbody", "shuqiydbody", "shuqiqdbody", "shuqirwbody", "shuqifxbody", "shuqisprwurl", "shuqijlbody", "shuqisqjlbody", "shuqicjyurl", "shuqicjcsbody", "shuqicjbody", "shuqijsspbody", "shuqijsydurl", "shuqijsydbody", "shuqijsqdbody", "shuqijsqdspyurl", "shuqijsqdspbody", "shuqijsrwbody", "shuqijsfxbody", "shuqijsbookurl", "shuqijsbookbody", "shuqijssprwurl",
             "shuqiuserurl2", "shuqisyurl2", "shuqisybody2", "shuqispbody2", "shuqiscbody2", "shuqiydbody2", "shuqiqdbody2", "shuqirwbody2", "shuqifxbody2", "shuqisprwurl2", "shuqijlbody2", "shuqisqjlbody2", "shuqicjyurl2", "shuqicjcsbody2", "shuqicjbody2", "shuqijsspbody2", "shuqijsydurl2", "shuqijsydbody2", "shuqijsqdbody2", "shuqijsqdspyurl2", "shuqijsqdspbody2", "shuqijsrwbody2", "shuqijsfxbody2", "shuqijsbookurl2", "shuqijsbookbody2", "shuqijssprwurl2",
