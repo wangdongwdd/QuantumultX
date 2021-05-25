@@ -22,7 +22,7 @@
     },
     {
             "id":"sqxsdzh",
-            "name":"书旗小说",
+            "name":"书旗坤坤",
             "keys":[
 				"readck1",
 				"receivecoinck1",
@@ -302,7 +302,119 @@
 				"vediogoldprizeck40",
 				"vediodrawprizeck40",
 				"drawck40",
-				"userinfock40"				
+				"userinfock40",
+						
+				"readck41",
+				"receivecoinck41",
+				"vediogoldprizeck41",
+				"vediodrawprizeck41",
+				"drawck41",
+				"userinfock41",
+						
+				"readck42",
+				"receivecoinck42",
+				"vediogoldprizeck42",
+				"vediodrawprizeck42",
+				"drawck42",
+				"userinfock42",
+						
+				"readck43",
+				"receivecoinck43",
+				"vediogoldprizeck43",
+				"vediodrawprizeck43",
+				"drawck43",
+				"userinfock43",
+						
+				"readck44",
+				"receivecoinck44",
+				"vediogoldprizeck44",
+				"vediodrawprizeck44",
+				"drawck44",
+				"userinfock44",
+						
+				"readck45",
+				"receivecoinck45",
+				"vediogoldprizeck45",
+				"vediodrawprizeck45",
+				"drawck45",
+				"userinfock45",
+						
+				"readck46",
+				"receivecoinck46",
+				"vediogoldprizeck46",
+				"vediodrawprizeck46",
+				"drawck46",
+				"userinfock46",
+						
+				"readck47",
+				"receivecoinck47",
+				"vediogoldprizeck47",
+				"vediodrawprizeck47",
+				"drawck47",
+				"userinfock47",
+						
+				"readck48",
+				"receivecoinck48",
+				"vediogoldprizeck48",
+				"vediodrawprizeck48",
+				"drawck48",
+				"userinfock48",
+						
+				"readck49",
+				"receivecoinck49",
+				"vediogoldprizeck49",
+				"vediodrawprizeck49",
+				"drawck49",
+				"userinfock49",
+						
+				"readck50",
+				"receivecoinck50",
+				"vediogoldprizeck50",
+				"vediodrawprizeck50",
+				"drawck50",
+				"userinfock50",
+						
+				"readck51",
+				"receivecoinck51",
+				"vediogoldprizeck51",
+				"vediodrawprizeck51",
+				"drawck51",
+				"userinfock51",
+						
+				"readck52",
+				"receivecoinck52",
+				"vediogoldprizeck52",
+				"vediodrawprizeck52",
+				"drawck52",
+				"userinfock52",
+						
+				"readck53",
+				"receivecoinck53",
+				"vediogoldprizeck53",
+				"vediodrawprizeck53",
+				"drawck53",
+				"userinfock53",
+						
+				"readck54",
+				"receivecoinck54",
+				"vediogoldprizeck54",
+				"vediodrawprizeck54",
+				"drawck54",
+				"userinfock54",
+						
+				"readck55",
+				"receivecoinck55",
+				"vediogoldprizeck55",
+				"vediodrawprizeck55",
+				"drawck55",
+				"userinfock55",
+						
+				"readck56",
+				"receivecoinck56",
+				"vediogoldprizeck56",
+				"vediodrawprizeck56",
+				"drawck56",
+				"userinfock56"
             ],
             "author":"@Dong",
 			"settings": [{
@@ -474,111 +586,15 @@
             "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png"],
             "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.js"
         },
-    {
-            "id": "qlpkzq",
-            "name": "考状元娶老婆二合一",
-            "keys": [
-				"qlphd",
-				"kzyhd",
-
-				"qlphd2",
-				"kzyhd2",
-
-				"qlphd3",
-				"kzyhd3",
-
-				"qlphd4",
-				"kzyhd4",
-
-				"qlphd5",
-				"kzyhd5",
-
-				"qlphd6",
-				"kzyhd6",
-
-				"qlphd7",
-				"kzyhd7",
-
-				"qlphd8",
-				"kzyhd8",
-
-				"qlphd9",
-				"kzyhd9",
-
-				"qlphd10",
-				"kzyhd10",
-				
-				"qlphd11",
-				"kzyhd11",
-				
-				"qlphd12",
-				"kzyhd12",
-				
-				"qlphd13",
-				"kzyhd13",
-				
-				"qlphd14",
-				"kzyhd14",
-				
-				"qlphd15",
-				"kzyhd15",
-				
-				"qlphd16",
-				"kzyhd16",
-				
-				"qlphd17",
-				"kzyhd17",
-				
-				"qlphd18",
-				"kzyhd18",
-				
-				"qlphd18",
-				"kzyhd18",
-				
-				"qlphd19",
-				"kzyhd19",
-				
-				"qlphd20",
-				"kzyhd20",
-				
-				"qlphd21",
-				"kzyhd21",
-				
-				"qlphd22",
-				"kzyhd22",
-				
-				"qlphd23",
-				"kzyhd23",
-				
-				"qlphd24",
-				"kzyhd24"
-            ],
-            "author": "@Dong",
-            "settings": [{
-                    "id": "qlpstatus",
-                    "name": "当前账号",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "当前账号对应"
-                },
-                {
-                    "id": "qlpcount",
-                    "name": "账号个数",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "需要几个账号，数字为几"
-                }
-            ],
-            "repo": "https://github.com/age174/-/blob/main/qlp.js",
-            "icons": [
-                "https://ae01.alicdn.com/kf/Uc2775b8f4abf41788ba89df0317e58050.jpg",
-                "https://ae01.alicdn.com/kf/Uc2775b8f4abf41788ba89df0317e58050.jpg"
-		    ],
-            "script": "https://raw.githubusercontent.com/age174/-/main/qlp.js"
-    },
-	{
-        "id": "shuqiappdzh",
-        "name": "书旗小说APP",
+{
+    "id": "Dong.shuqiapp.sub",
+    "name": "书旗专用订阅",
+    "author": "@Dong",
+    "icon": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/ziye.png",
+    "repo": "https://github.com/ziye888",
+    "apps": [{
+        "id": "shuqiappsss",
+        "name": "书旗ZIYE",
         "keys": [
             "shuqiuserurl", "shuqisyurl", "shuqisybody", "shuqispbody", "shuqiscbody", "shuqiydbody", "shuqiqdbody", "shuqirwbody", "shuqifxbody", "shuqisprwurl", "shuqijlbody", "shuqisqjlbody", "shuqicjyurl", "shuqicjcsbody", "shuqicjbody", "shuqijsspbody", "shuqijsydurl", "shuqijsydbody", "shuqijsqdbody", "shuqijsqdspyurl", "shuqijsqdspbody", "shuqijsrwbody", "shuqijsfxbody", "shuqijsbookurl", "shuqijsbookbody", "shuqijssprwurl",
             "shuqiuserurl2", "shuqisyurl2", "shuqisybody2", "shuqispbody2", "shuqiscbody2", "shuqiydbody2", "shuqiqdbody2", "shuqirwbody2", "shuqifxbody2", "shuqisprwurl2", "shuqijlbody2", "shuqisqjlbody2", "shuqicjyurl2", "shuqicjcsbody2", "shuqicjbody2", "shuqijsspbody2", "shuqijsydurl2", "shuqijsydbody2", "shuqijsqdbody2", "shuqijsqdspyurl2", "shuqijsqdspbody2", "shuqijsrwbody2", "shuqijsfxbody2", "shuqijsbookurl2", "shuqijsbookbody2", "shuqijssprwurl2",
@@ -624,9 +640,20 @@
             "shuqiuserurl42", "shuqisyurl42", "shuqisybody42", "shuqispbody42", "shuqiscbody42", "shuqiydbody42", "shuqiqdbody42", "shuqirwbody42", "shuqifxbody42", "shuqisprwurl42", "shuqijlbody42", "shuqisqjlbody42", "shuqicjyurl42", "shuqicjcsbody42", "shuqicjbody42", "shuqijsspbody42", "shuqijsydurl42", "shuqijsydbody42", "shuqijsqdbody42", "shuqijsqdspyurl42", "shuqijsqdspbody42", "shuqijsrwbody42", "shuqijsfxbody42", "shuqijsbookurl42", "shuqijsbookbody42", "shuqijssprwurl42",
             "shuqiuserurl43", "shuqisyurl43", "shuqisybody43", "shuqispbody43", "shuqiscbody43", "shuqiydbody43", "shuqiqdbody43", "shuqirwbody43", "shuqifxbody43", "shuqisprwurl43", "shuqijlbody43", "shuqisqjlbody43", "shuqicjyurl43", "shuqicjcsbody43", "shuqicjbody43", "shuqijsspbody43", "shuqijsydurl43", "shuqijsydbody43", "shuqijsqdbody43", "shuqijsqdspyurl43", "shuqijsqdspbody43", "shuqijsrwbody43", "shuqijsfxbody43", "shuqijsbookurl43", "shuqijsbookbody43", "shuqijssprwurl43",
             "shuqiuserurl44", "shuqisyurl44", "shuqisybody44", "shuqispbody44", "shuqiscbody44", "shuqiydbody44", "shuqiqdbody44", "shuqirwbody44", "shuqifxbody44", "shuqisprwurl44", "shuqijlbody44", "shuqisqjlbody44", "shuqicjyurl44", "shuqicjcsbody44", "shuqicjbody44", "shuqijsspbody44", "shuqijsydurl44", "shuqijsydbody44", "shuqijsqdbody44", "shuqijsqdspyurl44", "shuqijsqdspbody44", "shuqijsrwbody44", "shuqijsfxbody44", "shuqijsbookurl44", "shuqijsbookbody44", "shuqijssprwurl44",
-            "shuqiuserurl45", "shuqisyurl45", "shuqisybody45", "shuqispbody45", "shuqiscbody45", "shuqiydbody45", "shuqiqdbody45", "shuqirwbody45", "shuqifxbody45", "shuqisprwurl45", "shuqijlbody45", "shuqisqjlbody45", "shuqicjyurl45", "shuqicjcsbody45", "shuqicjbody45", "shuqijsspbody45", "shuqijsydurl45", "shuqijsydbody45", "shuqijsqdbody45", "shuqijsqdspyurl45", "shuqijsqdspbody45", "shuqijsrwbody45", "shuqijsfxbody45", "shuqijsbookurl45", "shuqijsbookbody45", "shuqijssprwurl45"
+            "shuqiuserurl45", "shuqisyurl45", "shuqisybody45", "shuqispbody45", "shuqiscbody45", "shuqiydbody45", "shuqiqdbody45", "shuqirwbody45", "shuqifxbody45", "shuqisprwurl45", "shuqijlbody45", "shuqisqjlbody45", "shuqicjyurl45", "shuqicjcsbody45", "shuqicjbody45", "shuqijsspbody45", "shuqijsydurl45", "shuqijsydbody45", "shuqijsqdbody45", "shuqijsqdspyurl45", "shuqijsqdspbody45", "shuqijsrwbody45", "shuqijsfxbody45", "shuqijsbookurl45", "shuqijsbookbody45", "shuqijssprwurl45",
+            "shuqiuserurl46", "shuqisyurl46", "shuqisybody46", "shuqispbody46", "shuqiscbody46", "shuqiydbody46", "shuqiqdbody46", "shuqirwbody46", "shuqifxbody46", "shuqisprwurl46", "shuqijlbody46", "shuqisqjlbody46", "shuqicjyurl46", "shuqicjcsbody46", "shuqicjbody46", "shuqijsspbody46", "shuqijsydurl46", "shuqijsydbody46", "shuqijsqdbody46", "shuqijsqdspyurl46", "shuqijsqdspbody46", "shuqijsrwbody46", "shuqijsfxbody46", "shuqijsbookurl46", "shuqijsbookbody46", "shuqijssprwurl46",
+            "shuqiuserurl47", "shuqisyurl47", "shuqisybody47", "shuqispbody47", "shuqiscbody47", "shuqiydbody47", "shuqiqdbody47", "shuqirwbody47", "shuqifxbody47", "shuqisprwurl47", "shuqijlbody47", "shuqisqjlbody47", "shuqicjyurl47", "shuqicjcsbody47", "shuqicjbody47", "shuqijsspbody47", "shuqijsydurl47", "shuqijsydbody47", "shuqijsqdbody47", "shuqijsqdspyurl47", "shuqijsqdspbody47", "shuqijsrwbody47", "shuqijsfxbody47", "shuqijsbookurl47", "shuqijsbookbody47", "shuqijssprwurl47",
+            "shuqiuserurl48", "shuqisyurl48", "shuqisybody48", "shuqispbody48", "shuqiscbody48", "shuqiydbody48", "shuqiqdbody48", "shuqirwbody48", "shuqifxbody48", "shuqisprwurl48", "shuqijlbody48", "shuqisqjlbody48", "shuqicjyurl48", "shuqicjcsbody48", "shuqicjbody48", "shuqijsspbody48", "shuqijsydurl48", "shuqijsydbody48", "shuqijsqdbody48", "shuqijsqdspyurl48", "shuqijsqdspbody48", "shuqijsrwbody48", "shuqijsfxbody48", "shuqijsbookurl48", "shuqijsbookbody48", "shuqijssprwurl48",
+            "shuqiuserurl49", "shuqisyurl49", "shuqisybody49", "shuqispbody49", "shuqiscbody49", "shuqiydbody49", "shuqiqdbody49", "shuqirwbody49", "shuqifxbody49", "shuqisprwurl49", "shuqijlbody49", "shuqisqjlbody49", "shuqicjyurl49", "shuqicjcsbody49", "shuqicjbody49", "shuqijsspbody49", "shuqijsydurl49", "shuqijsydbody49", "shuqijsqdbody49", "shuqijsqdspyurl49", "shuqijsqdspbody49", "shuqijsrwbody49", "shuqijsfxbody49", "shuqijsbookurl49", "shuqijsbookbody49", "shuqijssprwurl49",
+            "shuqiuserurl50", "shuqisyurl50", "shuqisybody50", "shuqispbody50", "shuqiscbody50", "shuqiydbody50", "shuqiqdbody50", "shuqirwbody50", "shuqifxbody50", "shuqisprwurl50", "shuqijlbody50", "shuqisqjlbody50", "shuqicjyurl50", "shuqicjcsbody50", "shuqicjbody50", "shuqijsspbody50", "shuqijsydurl50", "shuqijsydbody50", "shuqijsqdbody50", "shuqijsqdspyurl50", "shuqijsqdspbody50", "shuqijsrwbody50", "shuqijsfxbody50", "shuqijsbookurl50", "shuqijsbookbody50", "shuqijssprwurl50",
+            "shuqiuserurl51", "shuqisyurl51", "shuqisybody51", "shuqispbody51", "shuqiscbody51", "shuqiydbody51", "shuqiqdbody51", "shuqirwbody51", "shuqifxbody51", "shuqisprwurl51", "shuqijlbody51", "shuqisqjlbody51", "shuqicjyurl51", "shuqicjcsbody51", "shuqicjbody51", "shuqijsspbody51", "shuqijsydurl51", "shuqijsydbody51", "shuqijsqdbody51", "shuqijsqdspyurl51", "shuqijsqdspbody51", "shuqijsrwbody51", "shuqijsfxbody51", "shuqijsbookurl51", "shuqijsbookbody51", "shuqijssprwurl51",
+            "shuqiuserurl52", "shuqisyurl52", "shuqisybody52", "shuqispbody52", "shuqiscbody52", "shuqiydbody52", "shuqiqdbody52", "shuqirwbody52", "shuqifxbody52", "shuqisprwurl52", "shuqijlbody52", "shuqisqjlbody52", "shuqicjyurl52", "shuqicjcsbody52", "shuqicjbody52", "shuqijsspbody52", "shuqijsydurl52", "shuqijsydbody52", "shuqijsqdbody52", "shuqijsqdspyurl52", "shuqijsqdspbody52", "shuqijsrwbody52", "shuqijsfxbody52", "shuqijsbookurl52", "shuqijsbookbody52", "shuqijssprwurl52",
+            "shuqiuserurl53", "shuqisyurl53", "shuqisybody53", "shuqispbody53", "shuqiscbody53", "shuqiydbody53", "shuqiqdbody53", "shuqirwbody53", "shuqifxbody53", "shuqisprwurl53", "shuqijlbody53", "shuqisqjlbody53", "shuqicjyurl53", "shuqicjcsbody53", "shuqicjbody53", "shuqijsspbody53", "shuqijsydurl53", "shuqijsydbody53", "shuqijsqdbody53", "shuqijsqdspyurl53", "shuqijsqdspbody53", "shuqijsrwbody53", "shuqijsfxbody53", "shuqijsbookurl53", "shuqijsbookbody53", "shuqijssprwurl53",
+            "shuqiuserurl54", "shuqisyurl54", "shuqisybody54", "shuqispbody54", "shuqiscbody54", "shuqiydbody54", "shuqiqdbody54", "shuqirwbody54", "shuqifxbody54", "shuqisprwurl54", "shuqijlbody54", "shuqisqjlbody54", "shuqicjyurl54", "shuqicjcsbody54", "shuqicjbody54", "shuqijsspbody54", "shuqijsydurl54", "shuqijsydbody54", "shuqijsqdbody54", "shuqijsqdspyurl54", "shuqijsqdspbody54", "shuqijsrwbody54", "shuqijsfxbody54", "shuqijsbookurl54", "shuqijsbookbody54", "shuqijssprwurl54",
+            "shuqiuserurl55", "shuqisyurl55", "shuqisybody55", "shuqispbody55", "shuqiscbody55", "shuqiydbody55", "shuqiqdbody55", "shuqirwbody55", "shuqifxbody55", "shuqisprwurl55", "shuqijlbody55", "shuqisqjlbody55", "shuqicjyurl55", "shuqicjcsbody55", "shuqicjbody55", "shuqijsspbody55", "shuqijsydurl55", "shuqijsydbody55", "shuqijsqdbody55", "shuqijsqdspyurl55", "shuqijsqdspbody55", "shuqijsrwbody55", "shuqijsfxbody55", "shuqijsbookurl55", "shuqijsbookbody55", "shuqijssprwurl55",
+            "shuqiuserurl56", "shuqisyurl56", "shuqisybody56", "shuqispbody56", "shuqiscbody56", "shuqiydbody56", "shuqiqdbody56", "shuqirwbody56", "shuqifxbody56", "shuqisprwurl56", "shuqijlbody56", "shuqisqjlbody56", "shuqicjyurl56", "shuqicjcsbody56", "shuqicjbody56", "shuqijsspbody56", "shuqijsydurl56", "shuqijsydbody56", "shuqijsqdbody56", "shuqijsqdspyurl56", "shuqijsqdspbody56", "shuqijsrwbody56", "shuqijsfxbody56", "shuqijsbookurl56", "shuqijsbookbody56", "shuqijssprwurl56"
         ],
-        "author": "@Dong",
+        "author": "@ziye",
         "settings": [{
             "id": "shuqiSuffix",
             "name": "当前账号",
@@ -640,6 +667,12 @@
             "type": "number",
             "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
         }, {
+            "id": "shuqiXH",
+            "name": "循环获取CK",
+            "val": "0",
+            "type": "number",
+            "desc": "0关闭 1开启,默认关闭"
+        }, {
             "id": "shuqiSC",
             "name": "单刷时长控制",
             "val": "0",
@@ -651,10 +684,29 @@
             "val": "0",
             "type": "number",
             "desc": "0关闭 设置余额大于多少提醒"
+        }, {
+            "id": "shuqinotifyttt",
+            "name": "推送控制",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭，1推送,默认12点以及23点推送"
+        }, {
+            "id": "shuqinotifyInterval",
+            "name": "通知控制",
+            "val": "2",
+            "type": "number",
+            "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+        }, {
+            "id": "shuqiMinutes",
+            "name": "推送-通知 分钟控制",
+            "val": "10",
+            "type": "number",
+            "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
         }],
         "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js",
         "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.png"],
         "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js"
-    }
+    }]
+}
 ]
 }
