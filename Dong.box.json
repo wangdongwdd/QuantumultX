@@ -29,9 +29,26 @@
             "icons": ["https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png", "https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png"]		
 	},
 	{
+		    "id":"videoapp",
+			"name":"腾讯视频",
+			"keys":["chavy_cookie_videoqq", "chavy_auth_url_videoqq", "chavy_auth_header_videoqq", "chavy_msign_url_videoqq", "chavy_msign_header_videoqq"],
+			"settings": [{
+				"id": "chavy_cookie_videoqq",
+				"name": "腾讯视频Cookie",
+				"val": "",
+				"type": "text",
+				"desc": "腾讯视频Cookie"
+				}
+			],
+			"author": "@Dong",
+			"repo": "https://github.com/chavyleung/scripts/tree/master/videoqq",
+            "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js",
+            "icons": [ "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png"]		
+	},
+	{
             "id": "txstockappsss",
             "name": "自选羊毛股",
-            "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey","cowkey","cashheader","cash"],
+            "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey", "cowkey", "cashheader", "cash"],
             "settings": [{
             "id": "cash",
             "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
