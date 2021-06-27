@@ -15,6 +15,7 @@
 				"type": "text",
 				"desc": "使用NobyDa的京东签到获取"
 				},
+				{
 				"id": "jx_tokens",
 				"name": "京喜Tokens",
 				"val": "",
