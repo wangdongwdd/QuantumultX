@@ -4,20 +4,28 @@
             "author": "@Dong",
             "icon": "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/zz.png",
             "repo": "https://github.com/wangdongwdd/QuantumultX",
-            "apps": [
-	{
+            "apps": [{
 		    "id":"jxcfdtx",
 			"name":"财富岛提现",
-			"keys":[
-			     "CookieJD",
-			     "jx_tokens"
+			"keys":["CookieJD", "jx_tokens"],
+			"settings": [{
+				"id": "CookieJD",
+				"name": "京东Cookie",
+				"val": "",
+				"type": "text",
+				"desc": "使用NobyDa的京东签到获取"
+				},
+				"id": "jx_tokens",
+				"name": "京喜Tokens",
+				"val": "",
+				"type": "text",
+				"desc": "获取京喜Tokens"
+				}
 			],
 			"author": "@Dong",
-			"repo": "https://github.com/DovFork/pxylen/blob/master/jx_cfdtx.js",
-            "icons": [
-			"https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png", 
-			"https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png"],			
-            "script": "https://raw.githubusercontent.com/pxylen/dog_jd/master/jx_cfdtx.js"
+			"repo": ["https://github.com/DovFork/pxylen/blob/master/jx_cfdtx.js"],
+			"script": "https://raw.githubusercontent.com/pxylen/dog_jd/master/jx_cfdtx.js",
+            "icons": ["https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png", "https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png"]		
 	},
 	{
             "id": "txstockappsss",
