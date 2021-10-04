@@ -138,9 +138,9 @@
 	{
             "id": "txstockappsss",
             "name": "自选羊毛股",
-            "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey", "cowkey", "cashheader", "cash"],
+            "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey", "cowkey", "cashheader", "zxgcash"],
             "settings": [{
-            "id": "cash",
+            "id": "zxgcash",
             "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
             "val": "",
             "type": "number",
