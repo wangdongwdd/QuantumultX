@@ -81,11 +81,39 @@
 				"repo": "https://github.com/Fokit/Quantumult-X/blob/main/scripts/jf_Convert.js",
 				"script": "https://raw.githubusercontent.com/Fokit/Quantumult-X/main/scripts/jf_Convert.js",
 				"icons": ["https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/eb/a8/f6/eba8f63a-b550-4586-b5d3-f22c0718ef81/source/100x100bb.jpg", "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/eb/a8/f6/eba8f63a-b550-4586-b5d3-f22c0718ef81/source/100x100bb.jpg"]
-	},			
+	},
+    {
+      "id": "youthCkapp",
+      "name": "中青数据",
+      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4", "youthheader_zq5", "read_zq5", "readtime_zq5", "youthheader_zq6", "read_zq6", "readtime_zq6", "youthheader_zq7", "read_zq7", "readtime_zq7", "youthheader_zq8", "read_zq8", "readtime_zq8", "youthheader_zq9", "read_zq9", "readtime_zq9", "youthheader_zq10", "read_zq10", "readtime_zq10"],
+      "author": "@ztxtop",
+      "settings": [{
+        "id": "ckFormat",
+        "val": "",
+        "name": "新CK格式",
+        "type": "boolean",
+        "desc": "数据是否按新格式存储"
+      }, {
+        "id": "zqSuffix",
+        "name": "抓包账号",
+        "val": "1",
+        "type": "number",
+        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+      }, {
+        "id": "zqExecAc",
+        "name": "中青执行账号",
+        "val": "1",
+        "type": "text",
+        "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+      }],
+      "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
+    },	
 	{
       "id": "youthBannerapp",
       "name": "中青看看赚",
-      "keys": ["youth_banner", "youth_banner2", "youth_banner3", "youth_banner4"],
+      "keys": ["youth_banner", "youth_banner2", "youth_banner3", "youth_banner4", "youth_banner5", "youth_banner6", "youth_banner7", "youth_banner8", "youth_banner9", "youth_banner10"],
       "author": "@ztxtop",
       "settings": [{
         "id": "zqSuffix",
