@@ -112,7 +112,7 @@
     },	
 	{
       "id": "youthBannerapp",
-      "name": "中青看看赚",
+      "name": "中青赚赚",
       "keys": ["youth_banner", "youth_banner2", "youth_banner3", "youth_banner4", "youth_banner5", "youth_banner6", "youth_banner7", "youth_banner8", "youth_banner9", "youth_banner10"],
       "author": "@ztxtop",
       "settings": [{
