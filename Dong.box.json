@@ -103,6 +103,7 @@
 		{
 			"id": "JDLM",
 			"name": "京东联盟转链",
+			"keys":["id77_JDLM_platform", "id77_JDLM_siteId", "id77_JDLM_app_key", "id77_JDLM_appSecret", "id77_JDLM_diy_api", "id77_JDLM_copy", "id77_JDLM_no_schema", "id77_JDLM_NO_LOG", "id77_JDLM_diy_api"],
 			"settings": [
 				{
 					"id": "id77_JDLM_platform",
@@ -197,7 +198,7 @@
 			"author": "@id77",
 			"repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/Script/uploadJDWSKey.js",
 			"script": "https://github.com/id77/QuantumultX/blob/master/Script/uploadJDWSKey.js",
-			"icons": ["https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png", "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png"],
+			"icons": ["https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png", "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png"]
 		}
 	]
 }
