@@ -96,9 +96,108 @@
 				}
 			],
 			"author": "@Dong",
-			"repo": "https://github.com/chavyleung/scripts/tree/master/videoqq",
+			"repo": "https://github.com/chavyleung/scripts/tree/master/videoqq.js",
             "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js",
             "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png"]		
+		},
+		{
+			"id": "JDLM",
+			"name": "京东联盟转链",
+			"settings": [
+				{
+					"id": "id77_JDLM_platform",
+					"name": "指定平台",
+					"val": "WeChat-MiniApp",
+					"type": "radios",
+					"desc": "选择使用哪个平台进行转链",
+					"items": [
+						{ "key": "WeChat-MiniApp", "label": "京粉小程序" },
+						{ "key": "DIY", "label": "自建" },
+						{ "key": "JDLM-WEB/APP", "label": "京东联盟-WEB/APP" }
+					]
+				},
+				{
+					"id": "id77_JDLM_siteId",
+					"name": "siteId",
+					"val": "",
+					"type": "number"
+				},
+				{
+					"id": "id77_JDLM_app_key",
+					"name": "app_key",
+					"val": "",
+					"type": "text"
+				},
+				{
+					"id": "id77_JDLM_appSecret",
+					"name": "appSecret",
+					"val": "",
+					"type": "text"
+				},
+				{
+					"id": "id77_JDLM_diy_api",
+					"name": "DIY Api",
+					"val": "",
+					"type": "text"
+				},
+				{
+					"id": "id77_JDLM_copy",
+					"name": "复制内容(需DIY Api)",
+					"val": "link",
+					"type": "radios",
+					"desc": "点击QX通知复制文案",
+					"items": [
+						{ "key": "link", "label": "转链链接" },
+						{ "key": "diy", "label": "DIY Api 文案" }
+					]
+				},
+				{
+					"id": "id77_JDLM_no_schema",
+					"name": "是否禁止点击通知跳转",
+					"val": "N",
+					"type": "text",
+					"placeholder": "Y/N",
+					"desc": "Y禁止，N不禁止"
+				},
+				{
+					"id": "id77_JDLM_NO_LOG",
+					"name": "是否禁止输出日志",
+					"val": "Y",
+					"type": "text",
+					"placeholder": "Y/N",
+					"desc": "Y禁止打印结果，N不禁止"
+				}
+			],
+			"author": "@id77",
+			"repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js",
+			"script": "https://github.com/id77/QuantumultX/blob/master/Script/jdapp_to_union.js",
+			"icons": ["https://raw.githubusercontent.com/id77/QuantumultX/master/icon/JDLM.png", "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/JDLM.png"]
+		},
+		{
+			"id": "id77_TG",
+			"name": "wskey 提取器",
+			"keys": ["id77_TGUserID", "wskeyList"],
+			"author": "@id77",
+			"settings": [
+				{
+					"id": "id77_TGUserID",
+					"name": "Telegram User ID",
+					"val": "",
+					"type": "number"
+				},
+				{
+					"id": "wskeyList",
+					"name": "wskey List",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": true,
+					"rows": 2
+				}
+			],
+			"author": "@id77",
+			"repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/Script/uploadJDWSKey.js",
+			"script": "https://github.com/id77/QuantumultX/blob/master/Script/uploadJDWSKey.js",
+			"icons": ["https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png", "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png"],
 		}
 	]
 }
