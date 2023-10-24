@@ -18,133 +18,30 @@
 				"type": "boolean",
 				"desc": "是否开启京粉转链？"
           },
-          {
-				"id": "jfAutoScheme",
-				"name": "自动目标",
-				"val": true,
-				"type": "boolean",
-				"desc": "开启后如转链成功有返利，点击通知跳转正在使用的 app，关闭则跳转自选的 app。"
-          },
-          {
-				"id": "jfChooseScheme",
-				"name": "自选目标",
-				"val": "jd",
-				"type": "radios",
-				"desc": "自选跳转的 app，仅在自动目标关闭时有效。",
-				"items": [
-				{ "key": "jd", "label": "京东" },
-                { "key": "jx", "label": "京喜" },
-                { "key": "jk", "label": "京东健康" }, 
-                { "key": "js", "label": "京东极速版" },
-                { "key": "browser", "label": "浏览器" }
-            ]
-          },
-          {
-				"id": "jfusejsapp",
-				"name": "京东极速版使用 app",
-				"val": false,
-				"type": "boolean",
-				"desc": "开启时对目标为京东极速版则跳转京东极速版，关闭则跳转浏览器，默认关闭。注意：即使开启，由于极速版 URL Scheme 问题，跳转后只能先加入购物车，返回原购物车界面进行结账，否则无法使用极速版优惠券。"
-          },
-          {
-				"id": "chooseBrowser",
-				"name": "浏览器目标",
-				"val": "Safari",
-				"type": "radios",
-				"desc": "自选跳转的浏览器。",
-				"items": [
-                { "key": "Safari", "label": "Safari" },
-                { "key": "Alook", "label": "Alook" },
-                { "key": "DIY", "label": "自定义" }
-            ]
-          },
-          {
-				"id": "jfDIYScheme",
-				"name": "自定义浏览器",
-				"val": "",
-				"type": "textarea",
-				"placeholder": "Foxok://url?", 
-				"autoGrow": true,
-				"rows": 2,
-				"desc": "自定义跳转浏览器 URL Scheme，拼接后会是 diy+convertURL，如 Foxok://url?convertURL"
-          },
-          {
-				"id": "jfCookie",
-				"name": "Cookie",
-				"type": "textarea",
-				"autoGrow": true,
-				"rows": 2,
-				"desc": "使用京粉的京东账号 Cookie，如不填则为京东系脚本中的第一个 Cookie。"
-          }
-        ],
-				"author": "@Dong",
-				"repo": "https://github.com/Fokit/Quantumult-X/blob/main/scripts/jf_Convert.js",
-				"script": "https://raw.githubusercontent.com/Fokit/Quantumult-X/main/scripts/jf_Convert.js",
-				"icons": ["https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/eb/a8/f6/eba8f63a-b550-4586-b5d3-f22c0718ef81/source/100x100bb.jpg", "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/eb/a8/f6/eba8f63a-b550-4586-b5d3-f22c0718ef81/source/100x100bb.jpg"]
-	},
-    {
-      "id": "youthCkapp",
-      "name": "中青数据",
-      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4", "youthheader_zq5", "read_zq5", "readtime_zq5", "youthheader_zq6", "read_zq6", "readtime_zq6", "youthheader_zq7", "read_zq7", "readtime_zq7", "youthheader_zq8", "read_zq8", "readtime_zq8", "youthheader_zq9", "read_zq9", "readtime_zq9", "youthheader_zq10", "read_zq10", "readtime_zq10"],
-      "author": "@ztxtop",
-      "settings": [{
-        "id": "ckFormat",
-        "val": "",
-        "name": "新CK格式",
-        "type": "boolean",
-        "desc": "数据是否按新格式存储"
-      }, {
-        "id": "zqSuffix",
-        "name": "抓包账号",
-        "val": "1",
-        "type": "number",
-        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
-      }, {
-        "id": "zqExecAc",
-        "name": "中青执行账号",
-        "val": "1",
-        "type": "text",
-        "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
-      }],
-      "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
-      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
-    },	
 	{
-      "id": "youthBannerapp",
-      "name": "中青赚赚",
-      "keys": ["youth_banner", "youth_banner2", "youth_banner3", "youth_banner4", "youth_banner5", "youth_banner6", "youth_banner7", "youth_banner8", "youth_banner9", "youth_banner10"],
-      "author": "@ztxtop",
-      "settings": [{
-        "id": "zqSuffix",
-        "name": "抓包账号",
-        "val": "1",
-        "type": "number",
-        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
-      }, {
-        "id": "zqExecAc",
-        "name": "中青执行账号",
-        "val": "1",
-        "type": "text",
-        "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
-      }, {
-        "id": "delErrorData",
-        "name": "移除当日失败两次+的任务数据",
-        "val": "0",
-        "type": "radios",
-        "items": [{
-            "key": "0",
-            "label": "不移除"
-          },
-          {
-            "key": "1",
-            "label": "移除"
-          }
-        ]
-      }],
-      "repo": "https://github.com/ztxtop/x/blob/main/youth_banner.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
-      "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
+			"id": "id77_TG",
+			"name": "wskey 提取器",
+			"keys": ["id77_TGUserID", "wskeyList"],
+			"author": "@id77",
+			"icons": [
+				"https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png",
+				"https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png"
+			  ],
+			"settings": [{
+                    "id": "id77_TGUserID",
+                    "name": "Telegram User ID",
+                    "val": "",
+                    "type": "number"
+				  },
+				  {
+                    "id": "wskeyList",
+                    "name": "wskey List",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 2
+				  }
+			  ]
     },
 	{
 		    "id":"videoapp",
