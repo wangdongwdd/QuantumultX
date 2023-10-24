@@ -203,9 +203,7 @@
 		{
       "id": "lk.jd.wskeyupload",
       "name": "wskey配置",
-      "keys": [
-        "lkJdUploadWskeyBotToken"
-      ],
+      "keys": ["lkJdUploadWskeyBotToken", "lkJdUploadWskeyToTgUserid"],
       "author": "@lowking@MuTu888",
       "repo": "https://github.com/githubdulong/Script",
       "icons": [
