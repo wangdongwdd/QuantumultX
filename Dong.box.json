@@ -103,7 +103,7 @@
 				}
 			],
 			"author": "@id77",
-			"repo": "https://github.com/id77/QuantumultX/master/Script/",
+			"repo": "https://github.com/id77/QuantumultX/master/Script",
             "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/Script/uploadJDWSKey.js",
 			"icons": ["https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png", "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png"]
 		},
