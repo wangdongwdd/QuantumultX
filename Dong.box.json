@@ -176,16 +176,10 @@
 		},
 		{
 			"id": "id77_TG",
-			"name": "wskey 提取器",
-			"keys": ["id77_TGUserID", "wskeyList"],
+			"name": "wskey查看",
+			"keys": ["wskeyList"],
 			"author": "@id77",
 			"settings": [
-				{
-					"id": "id77_TGUserID",
-					"name": "Telegram User ID",
-					"val": "",
-					"type": "number"
-				},
 				{
 					"id": "wskeyList",
 					"name": "wskey List",
@@ -199,33 +193,6 @@
 			"repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/Script/uploadJDWSKey.js",
 			"script": "https://github.com/id77/QuantumultX/blob/master/Script/uploadJDWSKey.js",
 			"icons": ["https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png", "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jd_car.png"]
-		},
-		{
-      "id": "lk.jd.wskeyupload",
-      "name": "wskey配置",
-      "keys": ["lkJdUploadWskeyBotToken", "lkJdUploadWskeyToTgUserid"],
-      "author": "@lowking@MuTu888",
-      "repo": "https://github.com/githubdulong/Script",
-      "icons": [
-        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/link.png",
-        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/link.png"
-      ],
-      "settings": [
-        {
-          "id": "lkJdUploadWskeyBotToken",
-          "name": "Telegram机器人token",
-          "val": "",
-          "type": "text",
-          "desc": "去@BotFather获取bot token之后填在这里"
-        },
-        {
-          "id": "lkJdUploadWskeyToTgUserid",
-          "name": "wskey发送目标Id",
-          "val": "[\"-1001241545347\"]",
-          "type": "text",
-          "desc": "wskey发送目标Id。数组形式保存[\"-1001241545347\"]"
-        }
-      ]
-    }
+		}
 	]
 }
