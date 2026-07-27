@@ -6,7 +6,7 @@
 	"repo": "https://github.com/wangdongwdd/QuantumultX",
 	"apps": [
 		{
-      "id": "fmz200_oil_price",
+      "id": "oil_price",
       "name": "今日油价",
       "keys": [
         "oil_price_region"
