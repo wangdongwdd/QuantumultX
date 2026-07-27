@@ -110,8 +110,8 @@
       "author": "@fmz200",
       "repo": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/qinglong/ql_sync.js",
       "icons": [
-        "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/ql.png",
-        "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/ql.png"
+        "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/QL.png",
+        "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/QL.png"
       ],
       "scripts": [
         {
