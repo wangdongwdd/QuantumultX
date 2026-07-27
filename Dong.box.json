@@ -129,6 +129,6 @@
         "去广告交流群：【<a href=\"https://t.me/lanjieguanggao\",>去广告交流群</a>】",
         "应用client_id，client_secret获取请去青龙面板“系统设置->应用设置”中添加相关参数，优先以openapi方式同步"
       ]
-    },
-]
+    }
+  ]
 }
