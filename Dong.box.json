@@ -26,8 +26,8 @@
         }
       ],
       "icons": [
-        "https://github.com/fmz200/wool_scripts/tree/fd0f4cc36a3fb652a13ec6bea7e490527c7b9b32/icons/apps/oil.png",
-        "https://github.com/fmz200/wool_scripts/tree/fd0f4cc36a3fb652a13ec6bea7e490527c7b9b32/icons/apps/oil.png"
+        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/oil.png",
+        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/oil.png"
       ],
       "author": "@fmz200",
       "repo": "https://github.com/fmz200/wool_scripts"
