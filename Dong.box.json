@@ -33,7 +33,7 @@
       "repo": "https://github.com/fmz200/wool_scripts"
     },
 	{
-      "id": "fmz200_ql_sync",
+      "id": "ql_sync",
       "name": "BoxJS与青龙数据同步",
       "keys": [
         "ql_sync_keys",
