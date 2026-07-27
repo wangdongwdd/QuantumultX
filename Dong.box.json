@@ -6,6 +6,33 @@
 	"repo": "https://github.com/wangdongwdd/QuantumultX",
 	"apps": [
 		{
+      "id": "fmz200_oil_price",
+      "name": "今日油价",
+      "keys": [
+        "oil_price_region"
+      ],
+      "descs_html": [
+        "填写需要查询的地区"
+      ],
+      "settings": [
+        {
+          "id": "oil_price_region",
+          "name": "今日油价查询地区",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "今日油价查询地区"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/oil.png",
+        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/oil.png"
+      ],
+      "author": "@fmz200",
+      "repo": "https://github.com/fmz200/wool_scripts"
+    },
+		{
 			"id": "jfapp",
 			"name": "京粉转链",
 			"desc": "在京东比价中增加京粉转链，如显示有转链信息（即使显示无详细返利信息）则可点击跳转跟单，如未显示返利信息则为未参加推广的商品，不会跳转。",
@@ -105,6 +132,7 @@
 			"name": "京东联盟转链",
 			"keys":["id77_JDLM_platform", "id77_JDLM_siteId", "id77_JDLM_app_key", "id77_JDLM_appSecret", "id77_JDLM_diy_api", "id77_JDLM_copy", "id77_JDLM_no_schema", "id77_JDLM_NO_LOG", "id77_JDLM_diy_api"],
 			"settings": [
+
 				{
 					"id": "id77_JDLM_platform",
 					"name": "指定平台",
