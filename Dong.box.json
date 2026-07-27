@@ -26,8 +26,8 @@
         }
       ],
       "icons": [
-        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/oil.png",
-        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/oil.png"
+        "https://github.com/fmz200/wool_scripts/tree/fd0f4cc36a3fb652a13ec6bea7e490527c7b9b32/icons/apps/oil.png",
+        "https://github.com/fmz200/wool_scripts/tree/fd0f4cc36a3fb652a13ec6bea7e490527c7b9b32/icons/apps/oil.png"
       ],
       "author": "@fmz200",
       "repo": "https://github.com/fmz200/wool_scripts"
@@ -110,8 +110,8 @@
       "author": "@fmz200",
       "repo": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/qinglong/ql_sync.js",
       "icons": [
-        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ql.png",
-        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ql.png"
+        "https://github.com/fmz200/wool_scripts/tree/fd0f4cc36a3fb652a13ec6bea7e490527c7b9b32/icons/apps/ql.png",
+        "https://github.com/fmz200/wool_scripts/tree/fd0f4cc36a3fb652a13ec6bea7e490527c7b9b32/icons/apps/ql.png"
       ],
       "scripts": [
         {
