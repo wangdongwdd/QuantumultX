@@ -1,185 +1,168 @@
 {
-“id”: “Dong.app.sub”,
-“name”: “Dong 脚本订阅”,
-“author”: “@Dong”,
-“icon”: “https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/zz.png”,
-“repo”: “https://github.com/wangdongwdd/QuantumultX”,
-“desc”: “订阅大多都支持多账号，协定数据格式如下：有主键的用JSON，没有主键的拼接用#分割用@。\n例如{"uid1": "token1", "uid2": "token2","uid3": "token3"}和uid1#token1@uid2#token2@uid3#token3”,
-“raw”: “https://raw.githubusercontent.com/fmz200/wool_scripts/refs/heads/main/boxjs/fmz200_boxjs.json”,
-“date”: “更新日期：2026-07-24 10:30:00”,
-“apps”: [
-{
-“id”: “oil_price”,
-“name”: “今日油价”,
-“keys”: [
-“oil_price_region”
-],
-“descs_html”: [
-“填写需要查询的地区”
-],
-“settings”: [
-{
-“id”: “oil_price_region”,
-“name”: “今日油价查询地区”,
-“val”: “”,
-“type”: “textarea”,
-“autoGrow”: true,
-“rows”: 1,
-“desc”: “今日油价查询地区”
-}
-],
-“icons”: [
-“https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/oil.png”,
-“https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/oil.png”
-],
-“author”: “@fmz200”,
-“repo”: “https://github.com/fmz200/wool_scripts”
-},
-{
-“id”: “ql_sync”,
-“name”: “BoxJS与青龙数据同步”,
-“keys”: [
-“ql_sync_keys”,
-“ql_sync_notify”,
-“@ql.ip”,
-“@ql.client_id”,
-“@ql.client_secret”,
-“@ql.username”,
-“@ql.password”,
-“@ql.env”,
-“@ql.mute”,
-“@ql.is_pwd”
-],
-“settings”: [
-{
-“id”: “ql_sync_keys”,
-“name”: “需要同步的keys”,
-“val”: “”,
-“type”: “textarea”,
-“placeholder”: “”,
-“autoGrow”: true,
-“rows”: 2,
-“desc”: “以英文逗号分隔多个key，例如：key1,key2,key3 \n 如果要增加注释可以用格式@分隔key和注释，例如：key1@remark1,key2@remark2,key3@remark3 \n 以上两种格式可以混用”
-},
-{
-“id”: “ql_sync_notify”,
-“name”: “是否静默通知”,
-“val”: “”,
-“type”: “boolean”,
-“placeholder”: “true or false”,
-“autoGrow”: true,
-“rows”: 1,
-“desc”: “关闭后成功时将不会通知，同步失败会通知（暂时没做）”
-},
-{
-“id”: “@ql.is_pwd”,
-“name”: “开启密码登陆”,
-“val”: false,
-“type”: “boolean”,
-“desc”: “同步时，优先使用密码登陆”
-},
-{
-“id”: “@ql.ip”,
-“name”: “青龙登陆的域名或IP:端口号”,
-“val”: “”,
-“type”: “text”,
-“placeholder”: “111.21.0.32:5700”
-},
-{
-“id”: “@ql.client_id”,
-“name”: “应用 Client ID”,
-“val”: “”,
-“type”: “text”
-},
-{
-“id”: “@ql.client_secret”,
-“name”: “应用 Client Secret”,
-“val”: “”,
-“type”: “text”
-},
-{
-“id”: “@ql.username”,
-“name”: “账号”,
-“val”: “”,
-“type”: “text”
-},
-{
-“id”: “@ql.password”,
-“name”: “密码”,
-“val”: “”,
-“type”: “text”
-}
-],
-“author”: “@fmz200”,
-“repo”: “https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/qinglong/ql_sync.js”,
-“icons”: [
-“https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/QL.png”,
-“https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/QL.png”
-],
-“scripts”: [
-{
-“name”: “BoxJS同步到青龙”,
-“script”: “https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/qinglong/ql_sync.js”
-}
-],
-“descs_html”: [
-“青龙 docker 的安装方式请移步 tg 频道”,
-“青龙 docker 仓库：【<a href="https://github.com/whyour">github】”,
-“青龙 docker 频道：【<a href="https://t.me/jiao_long",>电报频道】”,
-“去广告交流群：【<a href="https://t.me/lanjieguanggao",>去广告交流群】”,
-“应用client_id，client_secret获取请去青龙面板“系统设置->应用设置”中添加相关参数，优先以openapi方式同步”
-]
-},
-{
-“id”: “pxks_exam”,
-“name”: “四川安全考试监控”,
-“keys”: [
-“pxks_authorization”,
-“pxks_theory”,
-“pxks_practice”
-],
-“settings”: [
-{
-“id”: “pxks_authorization”,
-“name”: “Authorization”,
-“val”: “”,
-“type”: “text”,
-“desc”: “填写登录后获取的 Authorization。可以填写完整 Bearer Token，也可以只填写 Token，脚本会自动补 Bearer 前缀。”
-},
-{
-“id”: “pxks_theory”,
-“name”: “理论考试监控”,
-“val”: true,
-“type”: “boolean”,
-“desc”: “开启后监控理论考试名额”
-},
-{
-“id”: “pxks_practice”,
-“name”: “实操考试监控”,
-“val”: true,
-“type”: “boolean”,
-“desc”: “开启后监控实操考试名额”
-}
-],
-“descs_html”: [
-“监控四川安全考试理论、实操考试名额。”,
-“地区：德阳、成都。”,
-“理论：examClass=1；实操：examClass=2。”,
-“有名额时推送通知，满额后再次出现名额也会提醒。”,
-“Authorization 仅保存在本机 BoxJS，不要将真实 Token 提交到 GitHub。”
-],
-“author”: “@Dong”,
-“repo”: “https://github.com/wangdongwdd/QuantumultX”,
-“icons”: [
-“https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/QL.png”,
-“https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/QL.png”
-],
-“scripts”: [
-{
-“name”: “四川安全考试名额监控”,
-“script”: “https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/Scripts/pxks_exam_monitor.js”
-}
-]
-}
-]
+    "id": "Dong.app.sub",
+    "name": "Dong 脚本订阅",
+    "author": "@Dong",
+    "icon": "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/zz.png",
+    "repo": "https://github.com/wangdongwdd/QuantumultX",
+    "desc": "订阅大多都支持多账号，协定数据格式如下：有主键的用JSON，没有主键的拼接用#分割用@。\n例如{\"uid1\": \"token1\", \"uid2\": \"token2\",\"uid3\": \"token3\"}和uid1#token1@uid2#token2@uid3#token3",
+    "raw": "https://raw.githubusercontent.com/fmz200/wool_scripts/refs/heads/main/boxjs/fmz200_boxjs.json",
+    "date": "更新日期：2026-07-24 10:30:00",
+    "apps": [
+        {
+            "id": "oil_price",
+            "name": "今日油价",
+            "keys": [
+                "oil_price_region"
+            ],
+            "descs_html": [
+                "填写需要查询的地区"
+            ],
+            "settings": [
+                {
+                    "id": "oil_price_region",
+                    "name": "今日油价查询地区",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 1,
+                    "desc": "今日油价查询地区"
+                }
+            ],
+            "icons": [
+                "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/oil.png",
+                "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/oil.png"
+            ],
+            "author": "@fmz200",
+            "repo": "https://github.com/fmz200/wool_scripts"
+        },
+        {
+            "id": "ql_sync",
+            "name": "BoxJS与青龙数据同步",
+            "keys": [
+                "ql_sync_keys",
+                "ql_sync_notify",
+                "@ql.ip",
+                "@ql.client_id",
+                "@ql.client_secret",
+                "@ql.username",
+                "@ql.password",
+                "@ql.env",
+                "@ql.mute",
+                "@ql.is_pwd"
+            ],
+            "settings": [
+                {
+                    "id": "ql_sync_keys",
+                    "name": "需要同步的keys",
+                    "val": "",
+                    "type": "textarea",
+                    "placeholder": "",
+                    "autoGrow": true,
+                    "rows": 2,
+                    "desc": "以英文逗号分隔多个key，例如：key1,key2,key3\n如果要增加注释可以用格式@分隔key和注释，例如：key1@remark1,key2@remark2,key3@remark3\n以上两种格式可以混用"
+                },
+                {
+                    "id": "ql_sync_notify",
+                    "name": "是否静默通知",
+                    "val": "",
+                    "type": "boolean",
+                    "desc": "关闭后成功时将不会通知，同步失败会通知（暂时没做）"
+                },
+                {
+                    "id": "@ql.is_pwd",
+                    "name": "开启密码登陆",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": "同步时，优先使用密码登陆"
+                },
+                {
+                    "id": "@ql.ip",
+                    "name": "青龙登陆的域名或IP:端口号",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "111.21.0.32:5700"
+                },
+                {
+                    "id": "@ql.client_id",
+                    "name": "应用 Client ID",
+                    "val": "",
+                    "type": "text"
+                },
+                {
+                    "id": "@ql.client_secret",
+                    "name": "应用 Client Secret",
+                    "val": "",
+                    "type": "text"
+                },
+                {
+                    "id": "@ql.username",
+                    "name": "账号",
+                    "val": "",
+                    "type": "text"
+                },
+                {
+                    "id": "@ql.password",
+                    "name": "密码",
+                    "val": "",
+                    "type": "text"
+                }
+            ],
+            "author": "@fmz200",
+            "repo": "https://github.com/fmz200/wool_scripts",
+            "scripts": [
+                {
+                    "name": "BoxJS同步到青龙",
+                    "script": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/qinglong/ql_sync.js"
+                }
+            ],
+            "descs_html": [
+                "青龙 docker 的安装方式请移步 tg 频道",
+                "青龙 docker 仓库：【<a href=\"https://github.com/whyour\">github</a>】",
+                "青龙 docker 频道：【<a href=\"https://t.me/jiao_long\">电报频道</a>】",
+                "去广告交流群：【<a href=\"https://t.me/lanjieguanggao\">去广告交流群</a>】",
+                "应用client_id，client_secret获取请去青龙面板“系统设置->应用设置”中添加相关参数，优先以openapi方式同步"
+            ]
+        },
+        {
+            "id": "pxks_exam",
+            "name": "四川安全考试监控",
+            "keys": [
+                "pxks_authorization",
+                "pxks_theory",
+                "pxks_practice"
+            ],
+            "settings": [
+                {
+                    "id": "pxks_authorization",
+                    "name": "Authorization",
+                    "val": "",
+                    "type": "text",
+                    "desc": "填写登录后的 Authorization Token。可以填写完整 Bearer Token，也可以只填写 Token。"
+                },
+                {
+                    "id": "pxks_theory",
+                    "name": "理论考试监控",
+                    "val": true,
+                    "type": "boolean",
+                    "desc": "开启后监控理论考试名额"
+                },
+                {
+                    "id": "pxks_practice",
+                    "name": "实操考试监控",
+                    "val": true,
+                    "type": "boolean",
+                    "desc": "开启后监控实操考试名额"
+                }
+            ],
+            "descs_html": [
+                "监控四川安全考试理论、实操考试名额。",
+                "地区：德阳、成都。",
+                "理论考试：examClass=1；实操考试：examClass=2。",
+                "有名额时推送通知。",
+                "Authorization 只保存在本机 BoxJS，不要将真实 Token 上传到 GitHub。"
+            ],
+            "author": "@Dong",
+            "repo": "https://github.com/wangdongwdd/QuantumultX"
+        }
+    ]
 }
