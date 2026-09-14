@@ -59,13 +59,16 @@
                     "placeholder": "",
                     "autoGrow": true,
                     "rows": 2,
-                    "desc": "以英文逗号分隔多个key，例如：key1,key2,key3\n如果要增加注释可以用格式@分隔key和注释，例如：key1@remark1,key2@remark2,key3@remark3\n以上两种格式可以混用"
+                    "desc": "以英文逗号分隔多个key，例如：key1,key2,key3 \n 如果要增加注释可以用格式@分隔key和注释，例如：key1@remark1,key2@remark2,key3@remark3 \n 以上两种格式可以混用"
                 },
                 {
                     "id": "ql_sync_notify",
                     "name": "是否静默通知",
                     "val": "",
                     "type": "boolean",
+                    "placeholder": "true or false",
+                    "autoGrow": true,
+                    "rows": 1,
                     "desc": "关闭后成功时将不会通知，同步失败会通知（暂时没做）"
                 },
                 {
@@ -118,8 +121,8 @@
             "descs_html": [
                 "青龙 docker 的安装方式请移步 tg 频道",
                 "青龙 docker 仓库：【<a href=\"https://github.com/whyour\">github</a>】",
-                "青龙 docker 频道：【<a href=\"https://t.me/jiao_long\">电报频道</a>】",
-                "去广告交流群：【<a href=\"https://t.me/lanjieguanggao\">去广告交流群</a>】",
+                "青龙 docker 频道：【<a href=\"https://t.me/jiao_long\",>电报频道</a>】",
+                "去广告交流群：【<a href=\"https://t.me/lanjieguanggao\",>去广告交流群</a>】",
                 "应用client_id，client_secret获取请去青龙面板“系统设置->应用设置”中添加相关参数，优先以openapi方式同步"
             ]
         },
@@ -136,33 +139,21 @@
                     "id": "pxks_authorization",
                     "name": "Authorization",
                     "val": "",
-                    "type": "text",
-                    "desc": "填写登录后的 Authorization Token。可以填写完整 Bearer Token，也可以只填写 Token。"
+                    "type": "text"
                 },
                 {
                     "id": "pxks_theory",
                     "name": "理论考试监控",
                     "val": true,
-                    "type": "boolean",
-                    "desc": "开启后监控理论考试名额"
+                    "type": "boolean"
                 },
                 {
                     "id": "pxks_practice",
                     "name": "实操考试监控",
                     "val": true,
-                    "type": "boolean",
-                    "desc": "开启后监控实操考试名额"
+                    "type": "boolean"
                 }
-            ],
-            "descs_html": [
-                "监控四川安全考试理论、实操考试名额。",
-                "地区：德阳、成都。",
-                "理论考试：examClass=1；实操考试：examClass=2。",
-                "有名额时推送通知。",
-                "Authorization 只保存在本机 BoxJS，不要将真实 Token 上传到 GitHub。"
-            ],
-            "author": "@Dong",
-            "repo": "https://github.com/wangdongwdd/QuantumultX"
+            ]
         }
     ]
 }
