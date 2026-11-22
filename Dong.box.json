@@ -116,45 +116,7 @@
             ],
             "author": "@fmz200",
             "repo": "https://github.com/fmz200/wool_scripts",
-            "scripts": [
-                {
-                    "name": "BoxJS同步到青龙",
-                    "script": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/qinglong/ql_sync.js"
-                }
-            ]
-        },
-        {
-            "id": "pxks_exam",
-            "name": "四川安全考试监控",
-            "keys": [
-                "pxks_authorization",
-                "pxks_theory",
-                "pxks_practice"
-            ],
-            "settings": [
-                {
-                    "id": "pxks_authorization",
-                    "name": "Authorization",
-                    "val": "",
-                    "type": "text"
-                },
-                {
-                    "id": "pxks_theory",
-                    "name": "理论考试监控",
-                    "val": true,
-                    "type": "boolean"
-                },
-                {
-                    "id": "pxks_practice",
-                    "name": "实操考试监控",
-                    "val": true,
-                    "type": "boolean"
-                }
-            ],
-            "icons": [
-                "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/oil.png",
-                "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/icons/apps/oil.png"
-            ]
+           ]
         }
     ]
 }
