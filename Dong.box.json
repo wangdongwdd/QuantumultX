@@ -116,6 +116,23 @@
             ],
             "author": "@fmz200",
             "repo": "https://github.com/fmz200/wool_scripts"
-        }
+        },
+        {
+  "id": "htaeasy",
+  "name": "小区充电桩",
+  "author": "local",
+  "keys": [
+    "htaeasy_token"
+  ],
+  "settings": [
+    {
+      "id": "htaeasy_token",
+      "name": "HTHC_ACCESS_TOKEN",
+      "val": "",
+      "type": "text",
+      "desc": "进入充电桩小程序后自动更新，也可以手动填写"
+    }
+  ]
+}
     ]
 }
