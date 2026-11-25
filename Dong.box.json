@@ -6,7 +6,7 @@
     "repo": "https://github.com/wangdongwdd/QuantumultX",
     "desc": "订阅大多都支持多账号，协定数据格式如下：有主键的用JSON，没有主键的拼接用#分割用@。\n例如{\"uid1\": \"token1\", \"uid2\": \"token2\",\"uid3\": \"token3\"}和uid1#token1@uid2#token2@uid3#token3",
     "raw": "https://raw.githubusercontent.com/fmz200/wool_scripts/refs/heads/main/boxjs/fmz200_boxjs.json",
-    "date": "更新日期：2026-07-24 10:30:00",
+    "date": "更新日期：2026-11-25 23:32:00",
     "apps": [
         {
             "id": "oil_price",
@@ -118,21 +118,26 @@
             "repo": "https://github.com/fmz200/wool_scripts"
         },
         {
-  "id": "htaeasy",
-  "name": "小区充电桩",
-  "author": "local",
-  "keys": [
-    "htaeasy_token"
-  ],
-  "settings": [
-    {
-      "id": "htaeasy_token",
-      "name": "HTHC_ACCESS_TOKEN",
-      "val": "",
-      "type": "text",
-      "desc": "进入充电桩小程序后自动更新，也可以手动填写"
-    }
-  ]
-}
+            "id": "htaeasy",
+            "name": "小区充电桩",
+            "keys": [
+                "htaeasy_token"
+            ],
+            "settings": [
+                {
+                    "id": "htaeasy_token",
+                    "name": "HTHC_ACCESS_TOKEN",
+                    "val": "",
+                    "type": "text",
+                    "desc": "进入充电桩小程序后自动更新，也可以手动填写"
+                }
+            ],
+            "icons": [
+                "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/htaeasy.png",
+                "https://raw.githubusercontent.com/wangdongwdd/QuantumultX/master/img/htaeasy.png"
+            ],
+            "author": "local",
+            "repo": "https://github.com/wangdongwdd/QuantumultX"
+        }
     ]
 }
